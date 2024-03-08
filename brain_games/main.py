@@ -1,6 +1,10 @@
+#import gg
+
+import sys
+
+sys.path.insert(1, '/path/to/brain_games')
+
 import gg
-
-
 
 
 def main():
