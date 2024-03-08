@@ -1,0 +1,17 @@
+[tool.poetry]
+packages = [
+	{include = "brain_games"},
+]
+name = "project-code"
+version = "0.1.0"
+description = ""
+authors = ["Bessonov Rudolf <rebunok@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
